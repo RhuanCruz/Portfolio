@@ -1,8 +1,4 @@
-*{
-background: #000000;
 
-padding: 0;
-}
 header{
 width: 482px;
 height: 200px;
@@ -28,9 +24,9 @@ height: 426px;
 color: #FFF;
 background-color: #00000000;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-padding-left: 95px;
-padding-top: 10px;
-font-size:40px;
+padding-left: 40px;
+padding-top: 25px;
+font-size:64px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -56,7 +52,7 @@ width: 120px;
 height: 50px;
 color: #ffffff;
 background-color: #000000;
-margin-left: 155%;
+margin-left: 165%;
 margin-top: 1%;
 margin-bottom: 7%;
 border: 1px solid rgba(31, 42, 145, 0.589);
