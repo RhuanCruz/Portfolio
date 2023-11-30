@@ -4,53 +4,131 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"  href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
+
     <title>Portfolio Rhuan Cruz</title>
     <style>
     body {
         background: url('FundoPortfolio2.svg') no-repeat center center fixed;
         background-size: cover; /* ajusta o tamanho conforme necessário */
     }
-    .caixa-brilhante {
-        border: 2px solid #ccc;
-        padding: 10px;
-        transition: box-shadow 0.3s ease;
-        }
-    
+    .Projetos{
+        width: 1300px;
+        height: 250px;
+        margin-top: 2px;
+        margin-left: 2%;
+        border-color: transparent;
+        border-radius: 49px;
+        background : transparent;
+        font-family: 'Megrim', sans-serif;padding-left: 5px;
+        color: #FFF;
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-top: 30px;
+        font-size:56px;
+        font-style: normal;
+        
+    }
+
+
+    .Skills{
+        width: 350px;
+        height: 150px;
+        margin-top: 5%;
+        margin-left: 1px;
+        border-color: transparent;
+        border-radius: 49px;
+        background : transparent;
+        font-family: 'Megrim', sans-serif;padding-left: 5px;
+        color: #ffffff;
+        padding-left: 5px;
+        padding-right: 130px;
+        padding-top: 70px;
+        font-size:28px;
+        font-style: normal;
+    }
+
+    .SobreMim{
+        width: 480px;
+        height: 150px;
+        margin-top: 5%;
+        margin-left: 1px;
+        border-color: transparent;
+        border-radius: 49px;
+        background : transparent;
+        font-family: 'Megrim', sans-serif;padding-left: 5px;
+        color: #ffffff;
+        padding-left: 5px;
+        padding-right: 130px;
+        padding-top: 70px;
+        font-size:28px;
+        font-style: normal;
+    }
+    .Contato{
+        width: 500px;
+        height: 150px;
+        margin-top: 2px;
+        margin-left: 2px;
+        border-color: white;
+        border-radius: 49px;
+        background : white;
+        font-family: 'Megrim', sans-serif;padding-left: 5px;
+        color: #000000;
+        padding-left: 5px;
+        padding-right: 200px;
+        padding-top: 70px;
+        font-size:28px;
+        font-style: normal;
+    }
+
         .caixa-brilhante:hover {
         box-shadow: 0 0 10px rgba(0, 128, 255, 0.5);
         }
-    
+        
+        
         @keyframes brilho {
-        0% { box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); }
-        50% { box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); }
-        100% { box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); }
+        0% { box-shadow: 0 0 10px rgba(72, 138, 238, 0.5); }
+        50% { box-shadow: 0 0 20px rgba(67, 86, 255, 0.8); }
+        100% { box-shadow: 0 0 10px rgba(104, 138, 248, 0.5); }
         }
     
-        .caixa-animada {
+        .caixa-Welcome {
         width: 350px;
         height: 100px;
-        border: 18px solid #000000;
+        border: transparent;
         border-radius: 800px;
         padding: 10px;
-        animation: brilho 2s infinite;
+        animation: brilho 8s infinite;
         align-items: center;
         margin-top: 8%;
-        margin-left: 135%;
+        margin-left: 100%;
         margin-right: 53%;
-        background-color: rgb(0, 0, 0);
+        background : transparent;
         }
     </style>
 </head>
 <body>
     <header>
-        <div class="caixa-animada">
+        <div class="caixa-Welcome">
             <label class ="txtBemVindo">Welcome!</label>
         </div>
         <div>
-            <button id="btnDownloadCV">
-                <label id="txtDownloadCV" for="DownloadCV">Download CV</label>
-            </button>
+            <button id="btnDownloadCV" type="button">Download CV</button>
         </div>
     </header>
+    <main>
+       
+        <button type="button" class="Skills">Skills</button>
+        <button type="button" class="SobreMim">SobreMim</button>
+        <button type="button" class="Contato">Contato
+            <img src="SimbolEnviar.svg" alt="ir" style="margin-left:380px; margin-top: 10px; margin-bottom: 20px;" height="30px">
+        </button>
+        <button type="button" class="Projetos">Projetos
+            <img src="Arrow 1.svg" alt="Clique para ver" style="margin-left:0px; margin-top: 1px; margin-bottom: 10px;" height="20px">
+        </button>
+    </main>
 </body>
 </html>
