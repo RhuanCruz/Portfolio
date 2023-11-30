@@ -13,21 +13,6 @@ width: 1396px;
 height: 426px;
 }
 
-.txtBemVindo{
-color: #FFF;
-background: transparent;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-padding-left: 40px;
-padding-top: 25px;
-font-size:64px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-flex-shrink: 0;
-align-items: center;
-}
-
-
 #btnDownloadCV{
 width: 120px;
 height: 50px;
