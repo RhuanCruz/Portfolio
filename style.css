@@ -52,7 +52,155 @@ cursor: pointer;
 }
 
 
+body {
+    position: relative;
+    background-color: #000000;
+}
 
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/imagens/FundoPortfolio2.svg') no-repeat center center fixed;
+    background-size: cover; /* ajusta o tamanho conforme necessário */
+    background-position: center;
+    z-index: -1; /* Garante que o pseudo-elemento esteja atrás do conteúdo */
+    animation: rotateBackground 20s linear infinite; /* Adicione a animação de rotação */
+}
+
+@keyframes rotateBackground {
+from {
+transform: rotate(0deg) scale(1.5);
+}
+to {
+transform: rotate(90deg) scale(2.5);
+}
+}
+
+.txtBemVindo{
+color: #FFF;
+background: transparent;
+font-family: 'Megrim', sans-serif;padding-left: 5px;
+padding-left: 40px;
+padding-top: 25px;
+font-size:64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+flex-shrink: 0;
+align-items: center;
+}
+
+.Projetos{
+    width: 1300px;
+    height: 250px;
+    margin-top: 2px;
+    margin-left: 2%;
+    border-color: transparent;
+    border-radius: 49px;
+    background : transparent;
+    font-family: 'Megrim', sans-serif;padding-left: 5px;
+    color: #FFF;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 30px;
+    font-size:56px;
+    font-style: normal;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+
+.Skills{
+    width: 380px;
+    height: 150px;
+    margin-top: 5%;
+    margin-left: 1px;
+    border-color: transparent;
+    border-radius: 49px;
+    background : transparent;
+    font-family: 'Megrim', sans-serif;padding-left: 5px;
+    color: #ffffff;
+    padding-left: 5px;
+    padding-right: 130px;
+    padding-top: 70px;
+    font-size:28px;
+    font-style: normal;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.SobreMim{
+    width: 580px;
+    height: 150px;
+    margin-top: 5%;
+    margin-left: 1px;
+    border-color: transparent;
+    border-radius: 49px;
+    background : transparent;
+    font-family: 'Megrim', sans-serif;padding-left: 5px;
+    color: #ffffff;
+    padding-left: 45px;
+    padding-right: 90px;
+    padding-top: 70px;
+    font-size:28px;
+    font-style: normal;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+.Contato{
+    width: 350px;
+    height: 150px;
+    margin-top: 2px;
+    margin-left: 2px;
+    border-color: white;
+    border-radius: 49px;
+    background : #F1E9D3;
+    font-family: 'Megrim', sans-serif;padding-left: 5px;
+    color: #000000;
+    padding-left: 5px;
+    padding-right: 200px;
+    padding-top: 70px;
+    font-size:28px;
+    font-style: normal;
+    cursor: pointer;
+    overflow: hidden;
+}
+    .caixa-brilhante:hover {
+    box-shadow: 0 0 10px rgba(0, 128, 255, 0.5);
+    }
+    
+    
+    @keyframes brilho {
+    0% { box-shadow: 0 0 10px rgba(72, 138, 238, 0.5); }
+    50% { box-shadow: 0 0 20px rgba(67, 86, 255, 0.8); }
+    100% { box-shadow: 0 0 10px rgba(104, 138, 248, 0.5); }
+    }
+
+    .caixa-Welcome {
+    width: 350px;
+    height: 100px;
+    border: transparent;
+    border-radius: 800px;
+    padding: 10px;
+    font-family: 'Megrim', sans-serif;
+    animation: brilho 8s infinite;
+    align-items: center;
+    margin-top: 8%;
+    margin-left: 100%;
+    margin-right: 53%;
+    background : transparent;
+    display: flex;
+    position: relative;
+    }
+    
+    a{
+        text-decoration: none;
+    }
 
 
 
